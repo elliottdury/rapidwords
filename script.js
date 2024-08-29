@@ -36,6 +36,7 @@ window.onload = function() {
     elements.getProModal.style.display = 'none';
     elements.aboutModal.style.display = 'none';
     elements.pasteModal.style.display = 'none';
+    console.log('Project is open source at https://github.com/elliottdury/rapidwords. Feel free to suggest improvements.');
 };
 
 function checkModalStates(modal) {
@@ -225,11 +226,7 @@ elements.readBtn.addEventListener('click', () => {
     }
 })
 
-/*
-This function could probably be written 100% more effectively,
-if you have a better solution please email us att hello@rapidwords.co
-/Elliott
-*/
+
 
 function read(words) {
     if (words) {
